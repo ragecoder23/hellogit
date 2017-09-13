@@ -1,6 +1,6 @@
-#include <iostream>
-#include <string>
-#ifndef STUDENT_H
+#include<iostream>
+#include<string>
+
 #define STUDENT_H
 using namespace std;
 
@@ -11,7 +11,9 @@ class student
 		int num;
 		
 	public:
-		void setName(sting);
+		
+		student(int,string);
+		void setName(string);
 		void setNum(int);
 		string getName();
 		int getNum();

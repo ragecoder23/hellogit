@@ -1,4 +1,9 @@
-#include student.h
+#include"student.h"
+#include<string>
+#include<iostream>
+
+
+student::student(int Num, string Name);
 
 void student::setName(string Name)
 {
@@ -10,12 +15,12 @@ void student::setNum(int Num)
 	num = Num;
 }
 
-stering student::getName()
+string student::getName()
 {
 	return name;
 }
 
 int student::getNum()
 {
-	return Num;
+	return num;
 }
