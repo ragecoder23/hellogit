@@ -12,6 +12,7 @@ class student
 		
 	public:
 		
+		student();		
 		student(int,string);
 		void setName(string);
 		void setNum(int);
