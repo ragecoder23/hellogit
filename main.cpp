@@ -25,9 +25,9 @@ void fillClass(vector<student>& newMyClass)
 	for (int i=0;i<=3;i++)
 	{
 		cout << "Name: ";
-		cin >> Name;
+		cin >> name;
 		cout << endl;
-	    cout << "Num: " 
+	    cout << "Num: " ;
 	    cin >> num;
 	    cout << endl;
 	    
@@ -41,7 +41,7 @@ void fillClass(vector<student>& newMyClass)
 
 void printClass(vector<student>& newMyClass)
 {
-	for (int i=o;i<=3;i++)
+	for (int i=0;i<=3;i++)
 	{
 		cout << "Name: " << newMyClass[i].getName << endl;
 		cout << "Num: " << newMyClass[i].getNum << endl;
