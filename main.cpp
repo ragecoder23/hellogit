@@ -29,12 +29,12 @@ void fillClass(vector<student>& newMyClass)
 		cout << endl;
 	    cout << "Num: " ;
 	    cin >> num;
-	    cout << endl;
+	    
 	    
 	    student newStudent(num, name);
 	    newMyClass.push_back(newStudent);
 	    
-	    system("cls");
+	    
 	}
 	
 }
