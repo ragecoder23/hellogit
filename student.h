@@ -1,7 +1,8 @@
+#ifndef
+#define STUDENT_H
+
 #include <iostream>
 #include <string>
-
-#define STUDENT_H
 using namespace std;
 
 class student
@@ -21,3 +22,4 @@ class student
 		
 };
 
+#endif
