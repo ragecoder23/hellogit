@@ -43,8 +43,8 @@ void printClass(vector<student>& newMyClass)
 {
 	for (int i=0;i<=3;i++)
 	{
-		cout << "Name: " << newMyClass[i].getName << endl;
-		cout << "Num: " << newMyClass[i].getNum << endl;
+		cout << "Name: " << newMyClass[i].getName() << endl;
+		cout << "Num: " << newMyClass[i].getNum() << endl;
 		cout << endl;
 	}
 	
