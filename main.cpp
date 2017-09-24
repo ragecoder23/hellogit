@@ -26,7 +26,7 @@ void fillClass(vector<student>& newMyClass)
 	{
 		cout << "Name: ";cin >> name; cout << endl;
 		
-	    cout << "Num: "; cin >> num;
+	    cout << "Num: "; cin >> num; << endl;
 	    
 	    
 	    student newStudent(num, name);
