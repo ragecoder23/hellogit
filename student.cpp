@@ -1,9 +1,14 @@
-#include"student.h"
-#include<string>
-#include<iostream>
+#include "student.h"
 
 
-student::student(int Num, string Name);
+student::student()
+{}
+
+student::student(int Num, string Name)
+{
+	name = Name;
+	num = Num;
+}
 
 void student::setName(string Name)
 {
