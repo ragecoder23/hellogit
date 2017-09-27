@@ -20,9 +20,10 @@ int main()
 		fillClass(myClass);
 		printClass(myClass);
 		
-		
+		cout << "To end input enter '#'" << endl;
 		cout << "Enter the name to search" << endl; 
 		cin >> key;
+		
 		while(key != "#")//perform searches until sentinel entered
     {
         result = linearSearch(myClass,key);
