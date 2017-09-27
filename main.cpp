@@ -75,7 +75,7 @@ void printClass(vector<student>& newMyClass)
 	
 }
 
-int linearSearch(vector<student>& data,key)
+int linearSearch(vector<student>& data,string key)
 {
 	
 	
