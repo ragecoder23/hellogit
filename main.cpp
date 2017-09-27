@@ -22,7 +22,7 @@ int main()
 		
 		cout << "Enter the name to search" << endl; 
 		cin >> key;
-		while(search_key != "#")//perform searches until sentinel entered
+		while(key != "#")//perform searches until sentinel entered
     {
         result = linearSearch(myClass,key);
 
@@ -38,8 +38,9 @@ int main()
         cin>>search_key; 
     }
 
+   linearSearch(myClass,key);
+		
    cout<<endl<<"Program \"search it\" is now finished."<<endl<<endl;
-		linearSearch(myClass);
 		
 	
 }
