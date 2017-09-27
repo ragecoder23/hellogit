@@ -65,6 +65,9 @@ int linearSearch(vector<student>& data)
 	for (int i = 0; i < data.size(); i++)
 	{
 		if (data[i].getName() == key)
+		
+		cout << key << " was found at " << i << endl; 
+		
 		return -1;
 		
 	}	
