@@ -82,7 +82,7 @@ int linearSearch(vector<student>& data,string key)
 {
 	
 	
-	for (int i = 0; i < data.size(); i++)
+	for (unsigned int i = 0; i < data.size(); i++)
 	{
 		if (data[i].getName() == key)
 		
