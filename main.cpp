@@ -11,6 +11,7 @@ int linearSearch(vector<student>& , string key);
 
 int main()
 {
+		int result;
 		string key;
 		key =" ";
 		
