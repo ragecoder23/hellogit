@@ -7,7 +7,7 @@ using namespace std;
 
 void fillClass(vector<student>&);
 void printClass(vector<student>&);
-int linearSearch( auto data, auto key);
+int linearSearch(vector<student>& , string key);
 
 int main()
 {
@@ -56,7 +56,7 @@ void printClass(vector<student>& newMyClass)
 	
 }
 
-int linearSearch( auto data, auto key)
+int linearSearch(vector <student>& data, string key)
 {
 	cout << "Enter name to search" << endl;
 	cin >> key;
