@@ -26,7 +26,7 @@ int main()
     {
         result = linearSearch(myClass,key);
 
-        cout<<"  '"<<search_key<<"' was ";
+        cout<<"  '"key<<"' was ";
 
         if (result == -1)
           cout<<"not found";
@@ -35,7 +35,7 @@ int main()
 
 
         cout<<endl<<endl<<"Enter a value to search for: ";
-        cin>>search_key; 
+        cin>> key; 
     }
 
    linearSearch(myClass,key);
@@ -84,7 +84,7 @@ int linearSearch(vector<student>& data,string key)
 	{
 		if (data[i].getName() == key)
 		
-		cout << key << " was found at " << i << endl; 
+	 
 		
 		return -1;
 		
