@@ -20,7 +20,7 @@ int main()
 		printClass(myClass);
 		
 		
-		linearSearch(myClass,key)
+		linearSearch(myClass,key);
 		
 	
 }
@@ -38,6 +38,7 @@ void fillClass(vector<student>& newMyClass)
 	    
 	    student newStudent(num, name);
 	    newMyClass.push_back(newStudent);
+	    
 	    
 	    
 	}
