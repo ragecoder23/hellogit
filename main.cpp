@@ -27,7 +27,7 @@ int main()
     {
         result = linearSearch(myClass,key);
 
-        cout<<"  '"key<<"' was ";
+        cout<<"  '"<< key<<"' was ";
 
         if (result == -1)
           cout<<"not found";
