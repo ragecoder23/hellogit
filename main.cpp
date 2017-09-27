@@ -7,7 +7,7 @@ using namespace std;
 
 void fillClass(vector<student>&);
 void printClass(vector<student>&);
-int linearSearch(vector<student>& );
+int linearSearch(vector<student>& , string key);
 
 int main()
 {
