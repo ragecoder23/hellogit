@@ -20,6 +20,25 @@ int main()
 		printClass(myClass);
 		
 		
+		cout << "Enter the name to search" << endl; 
+		cin >> key;
+		while(search_key != "#")//perform searches until sentinel entered
+    {
+        result = linearSearch(myClass,key);
+
+        cout<<"  '"<<search_key<<"' was ";
+
+        if (result == -1)
+          cout<<"not found";
+        else
+          cout<<"found at index "<<result;
+
+
+        cout<<endl<<endl<<"Enter a value to search for: ";
+        cin>>search_key; 
+    }
+
+   cout<<endl<<"Program \"search it\" is now finished."<<endl<<endl;
 		linearSearch(myClass);
 		
 	
@@ -56,11 +75,9 @@ void printClass(vector<student>& newMyClass)
 	
 }
 
-int linearSearch(vector<student>& data)
+int linearSearch(vector<student>& data,key)
 {
-	string key;
-	cout << "Enter name to search" << endl;
-	cin >> key;
+	
 	
 	for (int i = 0; i < data.size(); i++)
 	{
